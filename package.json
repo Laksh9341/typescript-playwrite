@@ -1,0 +1,22 @@
+{
+  "name": "playwrite",
+  "version": "1.0.0",
+  "description": "Playwrite course",
+  "main": "class.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laksh9341/typescript-playwrite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laksh9341/typescript-playwrite/issues"
+  },
+  "homepage": "https://github.com/Laksh9341/typescript-playwrite#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
