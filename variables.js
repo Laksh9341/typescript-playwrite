@@ -58,3 +58,20 @@ let emp = {
     salary: 5000,
 };
 console.log(emp);
+//Daily Task 11
+console.log("Task 11");
+let loginStatus = "Active";
+console.log(loginStatus);
+//Daily Task 12
+console.log("Task 12");
+let stud = {
+    id: 123,
+    name: "Lakshmanan"
+};
+console.log(stud);
+//Daily Task 13
+console.log("Task 13");
+let prod = {
+    id: 456
+};
+console.log(prod);

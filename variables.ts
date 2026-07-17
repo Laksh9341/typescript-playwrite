@@ -82,3 +82,37 @@ let emp : Employee = {
 };
 
 console.log(emp)
+
+//Daily Task 11
+console.log("Task 11")
+let loginStatus: "Active" | "Inactive" = "Active"
+console.log(loginStatus)
+
+
+//Daily Task 12
+console.log("Task 12")
+
+type Student = {
+    id : number;
+    name : string;
+    phone? : number;
+};
+
+let stud : Student =    {
+    id : 123,
+    name : "Lakshmanan"
+};
+
+console.log(stud)
+
+
+//Daily Task 13
+console.log("Task 13")
+type ProductType = {
+    readonly id : number;
+}
+
+let prod : ProductType = {
+    id : 456
+};
+console.log(prod);
