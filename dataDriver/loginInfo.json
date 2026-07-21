@@ -1,0 +1,24 @@
+{
+  "userdatas": [
+    {
+      "email": "john_doe01@gmail.com",
+      "password": "John@1234"
+    },
+    {
+      "email": "emma_smith22@gmail.com",
+      "password": "Emma#5678"
+    },
+    {
+      "email": "alex_wilson09@gmail.com",
+      "password": "Alex$9012"
+    },
+    {
+      "email": "sophia_brown15@gmail.com",
+      "password": "Sophia@3456"
+    },
+    {
+      "email": "michael_lee77@gmail.com ",
+      "password": "Mike!7890"
+    }
+  ]
+}
