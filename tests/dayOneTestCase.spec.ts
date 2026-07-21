@@ -119,3 +119,16 @@ test('Check if a string is not a palindrome', async() => {
     const str = 'hello';
     expect(isPalindrome(str)).toBe(false);
 });
+
+
+//Test 12
+function factorial(n: number): number {
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+test('Calculate factorial of a number', async() => {
+    const num = 5;
+    expect(factorial(num)).toBe(120);
+});
