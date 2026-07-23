@@ -26,13 +26,13 @@ test('Launch the application' , async( {page}) => {
     await page.getByRole('button', { name: 'Log in' }).click();
 
     //getByText
-    await page.getByText('Log in').click;
+    await page.getByText('Log in').click();
 
-}); 
+});
 
 //https://www.wikipedia.org
 
-// test('Test Locators on Wikipedia', async ({ page }) => {
+test('Test Locators on Wikipedia', async ({ page }) => {
     await page.goto('https://www.wikipedia.org/');
     await page.waitForTimeout(2000);
 
@@ -59,9 +59,7 @@ test('Launch the application' , async( {page}) => {
     await page.getByText('Log in').first().click();
     await page.waitForTimeout(2000);
 
-
 });
-
 
 //https://demo.opencart.com
 
@@ -75,10 +73,7 @@ test('Test Locators on OpenCart', async ({ page }) => {
 
     //Locatore
     await page.locator('button').first().click();
-
-
-
-// });
+});
 
 
 //https://www.saucedemo.com/
