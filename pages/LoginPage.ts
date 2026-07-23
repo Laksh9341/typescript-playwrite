@@ -54,6 +54,20 @@ export class LoginPage {
         await expect(locator).toHaveValue(val)
     }
 
+    //Task 9
+    async handleAlert(action: 'accept' | 'dismiss', prompt?: string){
+        this.page.on('dialog', async (alert) => {
+            if(action == 'accept'){
+                await alert.accept(prompt);
+            }else {
+                await alert.dismiss();
+            }
+        })
+    }
+
+    //Task 10
+    
+
 
 
 }
