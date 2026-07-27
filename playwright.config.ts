@@ -32,6 +32,10 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
+   use: {
+    ignoreHTTPSErrors: true,
+  },
+
   /* Configure projects for major browsers */
   projects: [
     {

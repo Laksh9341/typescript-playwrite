@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<loginData>
+
+    <user>
+        <username>john_doe01</username>
+        <password>John@1234</password>
+        <expectedResult>Success</expectedResult>
+    </user>
+
+    <user>
+        <username>emma_smith22</username>
+        <password>Emma#5678</password>
+        <expectedResult>Success</expectedResult>
+    </user>
+
+    <user>
+        <username>alex_wilson09</username>
+        <password>Alex$9012</password>
+        <expectedResult>Success</expectedResult>
+    </user>
+
+    <user>
+        <username>john_doe01</username>
+        <password>Wrong@123</password>
+        <expectedResult>Failure</expectedResult>
+    </user>
+
+    <user>
+        <username>wrong_user</username>
+        <password>John@1234</password>
+        <expectedResult>Failure</expectedResult>
+    </user>
+
+    <user>
+        <username></username>
+        <password>John@1234</password>
+        <expectedResult>Failure</expectedResult>
+    </user>
+
+    <user>
+        <username>john_doe01</username>
+        <password></password>
+        <expectedResult>Failure</expectedResult>
+    </user>
+
+</loginData>
